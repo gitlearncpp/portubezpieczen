@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="d8ed11b6-97ce-4fbe-bf52-321a3cba532e" name="web.tst">
+        <fileTransfer rootFolder="/usr/share/nginx/portubezpieczen.pl" accessType="SFTP" host="5.135.148.4" port="22" sshConfigId="899b0bdd-c0c7-4cd7-a028-c382a2543dba" sshConfig="ubuntu@5.135.148.4:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" isUseSudo="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
