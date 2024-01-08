@@ -66,4 +66,32 @@ h1, h2, h3 {
       text-align: justify; /* Wyjustowany tekst */
     }
 
+.container {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.container img {
+    max-width: 50%; /* Maksymalna szerokość obrazka */
+    height: auto;
+    margin-right: 20px;
+}
+
+.container p {
+    flex-grow: 1;
+    flex-basis: 0; /* Pozwala tekście na elastyczne dopasowanie */
+    margin: 0; /* Usuwa domyślne marginesy */
+}
+
+@media (max-width: 768px) {
+    .container img {
+        max-width: 30%; /* Zmniejsza szerokość obrazka na mniejszych ekranach */
+    }
+
+    .container p {
+        font-size: smaller; /* Opcjonalne zmniejszenie rozmiaru czcionki na mniejszych ekranach */
+    }
+}
+
 
