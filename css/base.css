@@ -18,6 +18,8 @@ body {
     margin-right: 15%;
     margin-top: 10px;
     font-size: large;
+    text-align: justify;
+    text-justify: inter-word;
 }
 h1, h2, h3 {
     font-family: "Apple Braille",Arial, Verdana, sans-serif;
